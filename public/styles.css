@@ -9,12 +9,13 @@
   body {
     background: #eee;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-    padding: 0 16px;
+    /* padding: 0; */
   }
   
   header {
+    width: 100%;
     background-color: #f5ba13;
-    margin: auto -16px;
+    margin: auto 0;
     padding: 16px 32px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
@@ -70,7 +71,7 @@
   
   form.create-note {
     position: relative;
-    width: 480px;
+    width: 80%;
     margin: 30px auto 20px auto;
     background: #fff;
     padding: 15px;
@@ -102,3 +103,8 @@
     outline: none;
   }
   
+  @media  screen and  (min-width: 520px) {
+    form.create-note {
+      width: 480px;
+    }
+  }
