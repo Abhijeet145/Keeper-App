@@ -51,9 +51,9 @@ function App() {
             />
           );
         })}
-        
+        <Footer />
       </div>
-      <Footer />
+      
     </div>
   );
 }

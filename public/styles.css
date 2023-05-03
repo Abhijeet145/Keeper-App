@@ -27,7 +27,7 @@
   }
   
   footer {
-    position: absolute;
+    position: fixed;
     text-align: center;
     bottom: 0;
     width: 100%;
@@ -80,6 +80,7 @@
   }
   form.create-note input,
   form.create-note textarea {
+    position: relative;
     width: 100%;
     border: none;
     padding: 4px;
@@ -103,6 +104,8 @@
     outline: none;
   }
   
+ 
+
   @media  screen and  (min-width: 520px) {
     form.create-note {
       width: 480px;
